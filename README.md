@@ -1,0 +1,3 @@
+# Motor Part Shop Software (MS)<br/>
+### NIT Rourkela CSE Project<br/>
+This application is about a small auto-mobile spare parts shop sells the spare parts for vehicles of several makes and models. Also, each spare part is typically manufactured by several small industries. To stream line the sales and supply ordering, the shop owner has an urgent need of motor part shop software. For maintaining the correct present status of the inventory. So that he/she can easily access the needed motor parts at present and also can order them as per need by contacting seller from the app. It will easily reduce the time and resources of the shopkeeper in calculating the inventory at real time. Also the margin of error will be reduces to minimum.
