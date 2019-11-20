@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "627822443612",
+    "firebase_url": "https://mpss-e1846.firebaseio.com",
+    "project_id": "mpss-e1846",
+    "storage_bucket": "mpss-e1846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627822443612:android:7530a333804515b1afba99",
+        "android_client_info": {
+          "package_name": "com.shashankesh.ms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627822443612-18jeapag6f0enippg1p1f79vmmp6hgcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCauT38ODjw7Bt_ITc3W6frbsGWKZvHuv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627822443612-18jeapag6f0enippg1p1f79vmmp6hgcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemIncrsDecrs">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/incrs_decrs_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="#FFFFFF" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/update_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/incrs_decrs_toolbar"
+        android:layout_margin="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add/Remove"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_itm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_item_text"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:text="Add Item"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/remove_itm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_itm_btn"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:text="Remove Item"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
